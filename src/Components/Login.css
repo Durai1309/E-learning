@@ -1,0 +1,210 @@
+/* .hiii{
+  width: 40%;
+    margin-top: 30px;
+    gap:30px;
+    border-radius: 15px;
+   background-color: rgb(14, 185, 177);
+    height:400px ;
+    opacity: .8;
+    padding: 100px;
+    margin-left: 80px;
+    text-align:center ;
+    margin-left: 450px;
+    margin-top: 100px;
+    
+ 
+}
+.plug{
+  width: 250px;
+  margin-left:8px ;
+}
+
+.hhh{
+  color: black;
+}
+
+.live{
+  width: 250px;
+} */
+
+
+.login-main-div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.login-section .login-img-box {
+  position: relative;
+  width: 50%;
+  height: 100vh;
+}
+
+.login-section .login-img-box :before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(225deg, #6A2058, #300F60);
+  background-image: url('../assets/c1.jpg');
+  z-index: 1;
+  /* opacity: 0.5; */
+  mix-blend-mode: screen;
+}
+
+.login-section .login-img-box .login-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.login-section .login-content-box {
+  align-items: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #e3fdfd68;
+  /* display: flex; */
+  width: 50%;
+  height: 85%;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-section .login-content-box .login-form {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 25%;
+}
+
+.login-section .login-content-box .login-title {
+  color: #6A2058;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  border-bottom: 4px solid #300F60;
+  display: inline-block;
+  letter-spacing: 1px;
+
+}
+
+.login-section .login-content-box .login-input-box {
+  margin-bottom: 20px;
+}
+
+.login-section .login-content-box .login-input-box .login-label {
+  text-transform: capitalize;
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: inline-block;
+  color: #160F36;
+  font-weight: 450;
+  letter-spacing: 1px;
+}
+
+.login-section .login-content-box .login-input-box .login-input,
+.login-section .login-content-box .login-input-box .login-btn {
+  width: 100%;
+  padding: 10px 20px;
+  outline: none;
+  font-weight: 450;
+  border: 1px solid #6A2058;
+  font-size: 16px;
+  background: #d292c24a;
+  border-radius: 30px;
+}
+
+.login-section .login-content-box .login-input-box .login-btn {
+  width: 50%;
+  margin-left: 25%;
+  background: linear-gradient(to left, #6A2058, #300F60);
+  color: whitesmoke;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.login-section .login-content-box .login-input-box .login-btn:hover {
+  background: linear-gradient(to left, #bc379b, #571cae);
+}
+
+.login-section .login-content-box .login-input-box .login-btn:active {
+  transform: translateY(4px);
+}
+
+.login-section .login-content-box .login-input-box .login-para {
+  margin-left: 25%;
+  color: #300F60;
+}
+
+.login-section .login-content-box .login-input-box .login-para .login-signup {
+  color: #590c3f;
+}
+
+@media(max-width:768px) {
+
+  .login-section .login-img-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .login-section .login-content-box .login-input-box .login-label {
+    width: 50%;
+  }
+
+  .login-section .login-content-box {
+    /* background: linear-gradient(to left, #bc379b, #571cae);
+  opacity: 0.4; */
+    /* display: flex; */
+    width: 100%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+
+
+  .login-section .login-content-box .login-form {
+    padding-top: 20%;
+    width: 100%;
+    margin: 5px;
+  }
+
+
+  .login-section .login-content-box .login-input-box .login-input {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .login-section .login-content-box .login-input-box .login-label {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .login-section .login-content-box .login-title {
+    margin-left: 25%;
+  }
+}
+.hhh{
+  margin-left: 37.5%;
+}

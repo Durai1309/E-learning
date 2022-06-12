@@ -1,0 +1,38 @@
+.warning {
+    width: 90%;
+    margin-top: 30px;
+    gap: 30px;
+    border-radius: 15px;
+    background-color: black;
+    height: 700px;
+    opacity: .8;
+    padding: 100px;
+
+
+}
+
+
+.textarea {
+    width: 910px;
+    height: 50px;
+    color: #fff;
+    font-size: 30px;
+    border-bottom: 2px solid white;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    background-color: transparent;
+    overflow: hidden;
+
+}
+
+.ooo {
+    margin-top: 20px;
+}
+
+.oii {
+    height: px;
+    border: 2px solid white;
+    background-color: black;
+    border-radius: 1px;
+}
